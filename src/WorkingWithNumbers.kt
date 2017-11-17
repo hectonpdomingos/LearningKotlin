@@ -22,7 +22,7 @@ fun main(args: Array<String>) {
 
     println("############ Multiply ###############")
 
-    println("Subtraction ${firstNum * secondNumber}")
+    println("Multiply ${firstNum * secondNumber}")
 
 
 
