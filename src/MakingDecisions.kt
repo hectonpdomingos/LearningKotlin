@@ -37,9 +37,18 @@ fun main(args: Array<String>) {
     }
 
 
-println("Logical operators ")
+println("Logical operators  AND = && - OR = || - NOT = !     ")
+
+ var numberThird = 90
+
+    //&& = AND
+if ((numberOne > numberTwo) && (numberThird < numberOne)){
+    println("Yes")
+}else {
+    println("No")
+}
+
+
+
     
-
-
-
 }
