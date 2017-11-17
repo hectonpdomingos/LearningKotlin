@@ -20,6 +20,12 @@ fun main(args: Array<String>) {
     println("Subtraction {$firstNum - $secondNumber}")
 
 
+    println("############ Multiply ###############")
+
+    println("Subtraction {$firstNum * $secondNumber}")
+
+
+
 
 
 }
