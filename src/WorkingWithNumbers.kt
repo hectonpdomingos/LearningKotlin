@@ -15,7 +15,9 @@ fun main(args: Array<String>) {
 
     println("If you want to make the math use { between numbers {$firstNum + $secondNumber}")
 
-    println("############Subtration ###############")
+    println("############ Subtraction ###############")
+
+    println("Subtraction {$firstNum - $secondNumber}")
 
 
 
