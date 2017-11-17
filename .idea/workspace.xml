@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b2c78f7a-a52b-4f13-8d78-47c669c33a86" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/VariableBool.kt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearningKotlin/META-INF/LearningKotlin.kotlin_module" afterPath="$PROJECT_DIR$/out/production/LearningKotlin/META-INF/LearningKotlin.kotlin_module" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/VariableFloat.kt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -16,21 +15,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="VariableDouble.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/VariableDouble.kt">
+      <file leaf-file-name="VariableFloat.kt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/VariableFloat.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="VariableBool.kt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/VariableBool.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="20" column="45" lean-forward="false" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
+            <state relative-caret-position="336">
+              <caret line="16" column="67" lean-forward="false" selection-start-line="16" selection-start-column="67" selection-end-line="16" selection-end-column="67" />
               <folding />
             </state>
           </provider>
@@ -61,6 +50,7 @@
         <option value="$PROJECT_DIR$/src/VariableString.kt" />
         <option value="$PROJECT_DIR$/src/VariableDouble.kt" />
         <option value="$PROJECT_DIR$/src/VariableBool.kt" />
+        <option value="$PROJECT_DIR$/src/VariableFloat.kt" />
       </list>
     </option>
   </component>
@@ -122,7 +112,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.VariableBoolKt">
+  <component name="RunManager" selected="Kotlin.VariableFloatKt">
     <configuration name="VariableBoolKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="VariableBoolKt" />
@@ -159,9 +149,9 @@
       <module name="LearningKotlin" />
       <envs />
     </configuration>
-    <configuration name="VariableIntKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="VariableFloatKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="VariableIntKt" />
+      <option name="MAIN_CLASS_NAME" value="VariableFloatKt" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -264,19 +254,19 @@
       <listeners />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Kotlin.VariableIntKt" />
-      <item index="1" class="java.lang.String" itemvalue="Kotlin.VariableDefinitionKt" />
-      <item index="2" class="java.lang.String" itemvalue="Kotlin.VariableStringKt" />
-      <item index="3" class="java.lang.String" itemvalue="Kotlin.VariableDoubleKt" />
-      <item index="4" class="java.lang.String" itemvalue="Kotlin.VariableBoolKt" />
+      <item index="0" class="java.lang.String" itemvalue="Kotlin.VariableDefinitionKt" />
+      <item index="1" class="java.lang.String" itemvalue="Kotlin.VariableStringKt" />
+      <item index="2" class="java.lang.String" itemvalue="Kotlin.VariableDoubleKt" />
+      <item index="3" class="java.lang.String" itemvalue="Kotlin.VariableBoolKt" />
+      <item index="4" class="java.lang.String" itemvalue="Kotlin.VariableFloatKt" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Kotlin.VariableBoolKt" />
-        <item index="1" class="java.lang.String" itemvalue="Kotlin.VariableDoubleKt" />
-        <item index="2" class="java.lang.String" itemvalue="Kotlin.VariableStringKt" />
-        <item index="3" class="java.lang.String" itemvalue="Kotlin.VariableDefinitionKt" />
-        <item index="4" class="java.lang.String" itemvalue="Kotlin.VariableIntKt" />
+        <item index="0" class="java.lang.String" itemvalue="Kotlin.VariableFloatKt" />
+        <item index="1" class="java.lang.String" itemvalue="Kotlin.VariableBoolKt" />
+        <item index="2" class="java.lang.String" itemvalue="Kotlin.VariableDoubleKt" />
+        <item index="3" class="java.lang.String" itemvalue="Kotlin.VariableStringKt" />
+        <item index="4" class="java.lang.String" itemvalue="Kotlin.VariableDefinitionKt" />
       </list>
     </recent_temporary>
   </component>
@@ -359,6 +349,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/VariableBool.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="20" column="45" lean-forward="false" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/VariableDouble.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -367,10 +365,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/VariableBool.kt">
+    <entry file="file://$PROJECT_DIR$/src/VariableFloat.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="20" column="45" lean-forward="false" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
+        <state relative-caret-position="336">
+          <caret line="16" column="67" lean-forward="false" selection-start-line="16" selection-start-column="67" selection-end-line="16" selection-end-column="67" />
           <folding />
         </state>
       </provider>
