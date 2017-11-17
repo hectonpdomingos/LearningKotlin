@@ -39,7 +39,23 @@ fun main(args: Array<String>) {
     secondNumber = 2
     println("Division ${firstNum % secondNumber}")
 
-    
+
+    println("############ Increment ###############")
+
+    firstNum = 100
+
+
+    println("Increment $firstNum")
+    println(++firstNum)
+
+    println("############ decrement ###############")
+
+    println("Decrement $firstNum")
+    print(--firstNum)
+
+
+
+
 
 
 
