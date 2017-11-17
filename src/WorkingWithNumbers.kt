@@ -33,6 +33,13 @@ fun main(args: Array<String>) {
     println("Division ${firstNum.toFloat() / secondNumber.toFloat()}")
 
 
+    println("############ Remainder ###############")
+
+    firstNum = 4
+    secondNumber = 2
+    println("Division ${firstNum % secondNumber}")
+
+    
 
 
 
