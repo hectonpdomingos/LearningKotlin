@@ -25,6 +25,14 @@ fun main(args: Array<String>) {
     println("Multiply ${firstNum * secondNumber}")
 
 
+    println("############ Division ###############")
+
+    println("Division ${firstNum / secondNumber}")
+
+    println("you can convert the number")
+    println("Division ${firstNum.toFloat() / secondNumber.toFloat()}")
+
+
 
 
 
