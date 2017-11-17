@@ -13,16 +13,16 @@ fun main(args: Array<String>) {
 
     println("The sum of first and second number is $result")
 
-    println("If you want to make the math use { between numbers {$firstNum + $secondNumber}")
+    println("If you want to make the math use { between numbers ${firstNum + secondNumber}")
 
     println("############ Subtraction ###############")
 
-    println("Subtraction {$firstNum - $secondNumber}")
+    println("Subtraction ${firstNum - secondNumber}")
 
 
     println("############ Multiply ###############")
 
-    println("Subtraction {$firstNum * $secondNumber}")
+    println("Subtraction ${firstNum * secondNumber}")
 
 
 
