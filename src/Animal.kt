@@ -3,7 +3,8 @@
 // needs to set as open
 open class Animal() // () primary constructor
     {
-        //private propriety
+        //private propriety you can only access via setters and getters
+        // protected is the same of private but the child classes or inheritances classes can access the propriety
         private var myVar: String? = null
         var name: String? = null
         var color: String? = null
@@ -97,7 +98,7 @@ fun main(args: Array<String>) {
 
 
 
- //Passing and getting values to and from private vars/proprieties 
+ //Passing and getting values to and from private vars/proprieties
 
     println("My first private value passed")
     var myPrivateVar  = Animal()
