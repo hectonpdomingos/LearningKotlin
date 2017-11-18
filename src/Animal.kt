@@ -5,7 +5,7 @@ open class Animal() // () primary constructor
     {
         //private propriety you can only access via setters and getters
         private var myVar: String? = null
-        // protected is the same of private but the child classes or inheritances classes can access the propriety
+        // protected is the same of private and also subclasses can access the propriety
         protected var myProtectedVar: String? = null
 
         var name: String? = null
@@ -77,6 +77,8 @@ class myG: Animal{
 }
 
 
+
+
 /*
 Seting the concept of inheritance
 
@@ -135,6 +137,7 @@ fun main(args: Array<String>) {
     var protectedVar = Animal()
     protectedVar.setMyPVar("I love so much giraffes")
     println(protectedVar.getMyPVar())
+
 
 
 
