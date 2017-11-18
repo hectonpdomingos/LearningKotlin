@@ -21,6 +21,9 @@ fun main(args: Array<String>) {
 
     //create a object "signUpCompany"
     var signUpCompany = company("Hecton Support", 2002, 2.999)
+    //you can create as many objects as you want
+    var signUpCompany2 = company("Helena Support", 2014, 10.000)
 
     println("Company :" + signUpCompany.name + " | Year of foundation: " + signUpCompany.founded + " | Number of employees: " + signUpCompany.numberEmployees)
+    println("Company :" + signUpCompany2.name + " | Year of foundation: " + signUpCompany2.founded + " | Number of employees: " + signUpCompany2.numberEmployees)
 }
