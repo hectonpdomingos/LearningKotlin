@@ -55,7 +55,7 @@ fun main(args: Array<String>) {
     println("Legs" + lion.numLegs)
 
 
-    println("Lion name and color propriety ")
+    println("Lion name and color propriety from constructor overloaded ")
     var newLion = Animal("King Leon", "Light Yellow")
 
     println("Name: " + newLion.name + "| Color: " + newLion.color)
