@@ -50,14 +50,21 @@ if ((numberOne > numberTwo) && (numberThird < numberOne)){
 
 println("Switch statement")
 
+println("Type a value to when/switch statement")
 
-    var value: Int = 29
+    // To store Int value use the follow line
+    // var value = readLine!!.toInt()
+
+    //To store string use
+    var value = readLine()
 
     when(value){
 
-        17 -> println("17")
-        18 -> println("18")
-        19 -> print("19")
+        "17" -> println("17")
+        "18" -> {
+            println("The value typed by the user is $value ")
+        }
+        "19" -> println("19")
         else-> {
             println("None of the above")
         }

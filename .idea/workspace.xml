@@ -27,8 +27,8 @@
       <file leaf-file-name="MakingDecisions.kt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/MakingDecisions.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="61" column="38" lean-forward="false" selection-start-line="61" selection-start-column="38" selection-end-line="61" selection-end-column="38" />
+            <state relative-caret-position="175">
+              <caret line="57" column="25" lean-forward="false" selection-start-line="57" selection-start-column="25" selection-end-line="57" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -69,8 +69,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1041" />
-    <option name="y" value="4" />
+    <option name="x" value="963" />
+    <option name="y" value="14" />
     <option name="width" value="903" />
     <option name="height" value="977" />
   </component>
@@ -298,7 +298,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1041" y="4" width="903" height="977" extended-state="0" />
+    <frame x="963" y="14" width="903" height="977" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -334,7 +334,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -421,8 +421,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MakingDecisions.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="61" column="38" lean-forward="false" selection-start-line="61" selection-start-column="38" selection-end-line="61" selection-end-column="38" />
+        <state relative-caret-position="175">
+          <caret line="57" column="25" lean-forward="false" selection-start-line="57" selection-start-column="25" selection-end-line="57" selection-end-column="25" />
           <folding />
         </state>
       </provider>
