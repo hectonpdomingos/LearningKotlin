@@ -10,6 +10,9 @@ fun main(args: Array<String>) {
     println("Second way to do function")
 
     add2(5, 5)
+
+    println("Third example")
+    form("Hecton", 31, 5.599)
 }
 
 //with return
@@ -22,4 +25,10 @@ fun add(num1: Int, num2: Int): Int{
 fun add2(num1: Int, num2: Int){
     var sum = num1 + num2
     println("Result of the second function is $sum")
+}
+
+//passing different type of data
+
+fun form(name: String, age: Int, salary: Double){
+    println("The employee is $name and he/is $age and has the salary $salary")
 }
