@@ -1,3 +1,7 @@
+/*
+Seeting the concept of inheritance 
+ */
+
 class Animal(){
 
     var name: String? = null
