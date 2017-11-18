@@ -3,13 +3,14 @@
 // needs to set as open
 open class Animal() // () primary constructor
     {
+        //private propriety
+        private var myVar: String? = null
+        var name: String? = null
+        var color: String? = null
+        var numLegs: Int? = null
 
-    var name: String? = null
-    var color: String? = null
-    var numLegs: Int? = null
-
-    //secondary constructor
-    constructor(name: String, color: String, numLegs: Int) : this() {
+        //secondary constructor
+        constructor(name: String, color: String, numLegs: Int) : this() {
         this.name = name
         this.color = color
         this.numLegs = numLegs
@@ -22,15 +23,24 @@ open class Animal() // () primary constructor
 
     }
 
-
         //Overloading the constructor
     constructor(name: String, color: String): this(){
         this.name = name
         this.color = color
        // println("Third constructor" + this.name)
-
-
     }
+
+
+
+        //setter of myVar propriety
+        fun setMyVar(myVar: String){
+            this.myVar = myVar
+
+        }
+        fun getMyVar(): String? {
+            return this.myVar
+
+        }
 
 
         // fun to show the value of the object in the moment
@@ -84,5 +94,20 @@ fun main(args: Array<String>) {
     println("Show the Duck object")
     var n = Animal("Duck", "White")
     n.showAnimal()
+
+
+
+ //Passing and getting values to and from private vars/proprieties 
+
+    println("My first private value passed")
+    var myPrivateVar  = Animal()
+    myPrivateVar.setMyVar("First value passed")
+    println(myPrivateVar.getMyVar())
+    println("My second private value passed")
+    myPrivateVar.setMyVar("Second value passed")
+   println(myPrivateVar.getMyVar())
+
+
+
 
 }
