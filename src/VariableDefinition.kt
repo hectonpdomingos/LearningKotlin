@@ -4,7 +4,7 @@ fun main(args: Array<String>) {
     LOL
 
     var {mutable}
-    val {immutable}
+    val { A local val is immutable} val is short for value.
      */
      var firstName = "Hecton" //you can change it later
      val fullName = "Hecton Domingos" // you cannot change it later
@@ -18,5 +18,7 @@ fun main(args: Array<String>) {
 
     println("My name is $firstName")
     println ("My name is $fullName" + "and I am " + age + "years old")
+
+
 
 }
