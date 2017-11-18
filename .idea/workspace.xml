@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b2c78f7a-a52b-4f13-8d78-47c669c33a86" name="Default" comment="" />
+    <list default="true" id="b2c78f7a-a52b-4f13-8d78-47c669c33a86" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Functions.kt" afterPath="$PROJECT_DIR$/src/Functions.kt" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,8 +17,8 @@
       <file leaf-file-name="Functions.kt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Functions.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="21">
+              <caret line="1" column="29" lean-forward="false" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -55,6 +57,7 @@
         <option value="$PROJECT_DIR$/src/MakingDecisions.kt" />
         <option value="$PROJECT_DIR$/src/ForLoop.kt" />
         <option value="$PROJECT_DIR$/src/WhileLoop.kt" />
+        <option value="$PROJECT_DIR$/src/Functions.kt" />
       </list>
     </option>
   </component>
@@ -435,8 +438,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Functions.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="21">
+          <caret line="1" column="29" lean-forward="false" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
           <folding />
         </state>
       </provider>
