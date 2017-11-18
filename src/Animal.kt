@@ -4,8 +4,10 @@
 open class Animal() // () primary constructor
     {
         //private propriety you can only access via setters and getters
-        // protected is the same of private but the child classes or inheritances classes can access the propriety
         private var myVar: String? = null
+        // protected is the same of private but the child classes or inheritances classes can access the propriety
+        protected var myProtectedVar: String? = null
+
         var name: String? = null
         var color: String? = null
         var numLegs: Int? = null
@@ -44,6 +46,16 @@ open class Animal() // () primary constructor
         }
 
 
+        //gettter protected var
+        fun getMyPVar(): String?{
+            return this.myProtectedVar
+        }
+        //settter protected var
+        fun setMyPVar(setPVar: String){
+            this.myProtectedVar = setPVar
+        }
+
+
         // fun to show the value of the object in the moment
         fun showAnimal(){
             println("Name is: " + this.name)
@@ -56,12 +68,22 @@ open class Animal() // () primary constructor
 
 }
 
+class myG: Animal{
+    constructor(): super(){
+
+        println(super.myProtectedVar)
+
+    }
+}
+
+
 /*
 Seting the concept of inheritance
 
 The class Lion() will get (inheritance) the Animal class/proprieties
  */
 class Lion(): Animal(){
+
 }
 
 fun main(args: Array<String>) {
@@ -108,6 +130,11 @@ fun main(args: Array<String>) {
     myPrivateVar.setMyVar("Second value passed")
    println(myPrivateVar.getMyVar())
 
+//protected var
+    println("Getting my protected value")
+    var protectedVar = Animal()
+    protectedVar.setMyPVar("I love so much giraffes")
+    println(protectedVar.getMyPVar())
 
 
 
