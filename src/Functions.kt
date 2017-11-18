@@ -1,3 +1,8 @@
+
+/*
+check Destructing in kotlin....to return multiples return..
+https://android.jlelse.eu/this-simple-trick-will-have-you-creating-multiple-returns-in-kotlin-37b9fe2a2f9f
+ */
 fun main(args: Array<String>) {
     println("First Example")
 
@@ -9,11 +14,16 @@ fun main(args: Array<String>) {
 
 
 
-    println("Second example")
+    println("Second example - Unit Type")
     add2(5, 5)
 
-    println("Third example")
+    println("Third example - Unit Type")
     form("Hecton", 31, 5.599)
+
+    println("The employee is ${form2("Hecton", 31, 6.999)}")
+
+
+
 }
 
 //with return
@@ -22,13 +32,20 @@ fun add(num1: Int, num2: Int): Int{
     return sum
 }
 
-//void func without return
+//void func without return - Unit Type
 fun add2(num1: Int, num2: Int){
     var sum = num1 + num2
     println("Result of the second function is $sum")
 }
 
-//void func passing different type of data
+//void func passing different type of data - Unit Type
 fun form(name: String, age: Int, salary: Double){
     println("The employee is $name and he/is $age and has the salary $salary")
 }
+
+fun form2(name: String, age: Int, salary: Double): String {
+    return name + age + salary
+
+}
+
+
