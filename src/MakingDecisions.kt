@@ -48,7 +48,20 @@ if ((numberOne > numberTwo) && (numberThird < numberOne)){
     println("No")
 }
 
+println("Switch statement")
 
 
-    
+    var value: Int = 29
+
+    when(value){
+
+        17 -> println("17")
+        18 -> println("18")
+        19 -> print("19")
+        else-> {
+            println("None of the above")
+        }
+
+    }
+
 }
