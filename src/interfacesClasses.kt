@@ -6,19 +6,19 @@ interface actions{
 }
 
 class Dimitri: actions{
+    override fun openWindows() {
+        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+    }
+
+    override fun browswerInternet() {
+        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+    }
+
     override fun closeWindows() {
          println("Dima is closing the windows")
         }
 
-    override fun openWindows() {
-        openWindows(){
-            println("")
-        }
-    }
 
-    override fun browswerInternet() {
-        super.browswerInternet()
-    }
 }
 
 
