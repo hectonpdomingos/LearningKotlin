@@ -37,7 +37,25 @@ fun main(args: Array<String>) {
     }
     println("End of SECOND Loop")
 
+    println("Using lambda expression of integers of a size of N initialized with a default value of 2")
+    var N = 10
+    var myIntArrayCount = 0
+    val myIntArray = IntArray(N, {i -> 2})
+    for (item in myIntArray){
+        println("Value:" + myIntArray[myIntArrayCount])
+        ++myIntArrayCount
+    }
+    println("End of THIRD Loop")
 
+
+println("Output the result 0, 1,2,3 - X index")
+    var X = 10
+    var countSoOn = 0
+    var arraySoOn = Array<String>(X, { "$it" } )
+    for (item in arraySoOn){
+        println(arraySoOn[countSoOn])
+        ++countSoOn
+    }
 }
 
 
