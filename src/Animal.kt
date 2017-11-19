@@ -1,4 +1,10 @@
+/*
+private means visible inside this class only (including all its members);
+protected — same as private + visible in subclasses too;
+internal — any client inside this module who sees the declaring class sees its internal members;
+public — any client who sees the declaring class sees its public members.
 
+ */
 //Every class in Kotlin is Final, so to allows the inheritance
 // needs to set as open
 open class Animal() // () primary constructor
