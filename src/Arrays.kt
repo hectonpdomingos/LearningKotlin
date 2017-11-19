@@ -1,6 +1,39 @@
 
 fun main(args: Array<String>) {
 
+
+
+    println("Outputting a simple array")
+    var simpleArray = arrayOf(0,1,2,3,4)
+    println("This array has ${simpleArray.size} indexes")
+    //if you try 0..simpleArray.size will generate a exception, bc the for loop counts 0 + array.size
+    for(index in 0..4 ){
+        println(simpleArray[index])
+    }
+
+    println("Another Simple Array")
+
+    var anotherSimpleArray = arrayOf("Apple", "Dimitri", 2014, "Kaka", "Mama", "Hecton")
+    var deallingWithPositions = anotherSimpleArray[2]
+    for (position in anotherSimpleArray){
+        //generates error
+        // println(anotherSimpleArray[position as Int])
+
+        //will be fine
+        println(position)
+        //find the value
+        if (position.equals("Dimitri")){
+            println("I found the boy")
+        }
+        if (position.equals(deallingWithPositions)){
+            println(" ------------We found the index (2) ${position}")
+        }
+
+
+    }
+
+
+
     //Array with 5 blocks filled with the number 8
     var myFirstArray = Array<Int>(5) {8}
 
