@@ -28,9 +28,9 @@ fun main(args: Array<String>) {
         if (position.equals(deallingWithPositions)){
             println(" ------------We found the index (2) ${position}")
         }
-
-
     }
+
+
 
 
 
@@ -89,6 +89,23 @@ println("Output the result 0, 1,2,3 - X index")
         println(arraySoOn[countSoOn])
         ++countSoOn
     }
+
+    println("########### Working with ArrayLists #############")
+    var myFirstArrayList = ArrayList<String>()
+    //Adding informaiton
+    myFirstArrayList.add("One")
+    myFirstArrayList.add("Two")
+    myFirstArrayList.add("Three")
+    myFirstArrayList.add("Four")
+
+    //removing information
+    myFirstArrayList.remove("Three")
+
+    for(showMyArrayList in myFirstArrayList){
+        println(showMyArrayList)
+    }
+
+
 }
 
 
