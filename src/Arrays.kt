@@ -99,6 +99,7 @@ println("Output the result 0, 1,2,3 - X index")
     myFirstArrayList.add("Four")
     // Setting in a specific index
     myFirstArrayList.add(4, "LOVE")
+    
     // for some fucking reason, you can do shit like that
     // myFirstArrayList.add(99, "Value")  if there is no 98 index
 
