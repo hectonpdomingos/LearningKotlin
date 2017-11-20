@@ -68,4 +68,18 @@ fun main(args: Array<String>) {
     var mySecondHashMapOf = hashMapOf<Int, String>(1 to "One", 2 to "Two")
     var myTirdHashMapOf = hashMapOf<Int, Int>(1 to 1, 2 to 2)
 
+
+    println("#### Creating a immutable Array list (listOf)")
+    var myFirstImmutableArrayList = listOf<String>("One 1", "Two 2", "Three 3")
+
+    for (item in 0..myFirstImmutableArrayList.size -1){
+        println(myFirstImmutableArrayList[item])
+    }
+
+    println("#### Creating a mutable Array list (mutableListOf)")
+    var myFirstMutableArrayList = mutableListOf<String>("One", "Two", "Three")
+
+    for (item in 0..myFirstMutableArrayList.size -1){
+        println(myFirstMutableArrayList[item])
+    }
 }
