@@ -82,4 +82,10 @@ fun main(args: Array<String>) {
     for (item in 0..myFirstMutableArrayList.size -1){
         println(myFirstMutableArrayList[item])
     }
+
+    println("#### Creating lists without specify the type ")
+    var myListWithoutType = listOf(2, "two", 5, "Brazil")
+    for (item in myListWithoutType){
+        println(item)
+    }
 }
