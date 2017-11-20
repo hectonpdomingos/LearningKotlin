@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b2c78f7a-a52b-4f13-8d78-47c669c33a86" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearningKotlin/ArraysKt.class" afterPath="$PROJECT_DIR$/out/production/LearningKotlin/ArraysKt.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/SomeTests.kt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/links" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearningKotlin/META-INF/LearningKotlin.kotlin_module" afterPath="$PROJECT_DIR$/out/production/LearningKotlin/META-INF/LearningKotlin.kotlin_module" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Arrays.kt" afterPath="$PROJECT_DIR$/src/Arrays.kt" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,11 +17,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="Arrays.kt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Arrays.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Arrays.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="276">
               <caret line="104" column="31" lean-forward="false" selection-start-line="104" selection-start-column="31" selection-end-line="104" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SomeTests.kt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/SomeTests.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="483">
+              <caret line="23" column="47" lean-forward="false" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="links" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/links">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="84">
+              <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WhileLoop.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/WhileLoop.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="164">
+              <caret line="29" column="18" lean-forward="false" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="47" />
               <folding />
             </state>
           </provider>
@@ -67,10 +98,12 @@
         <option value="$PROJECT_DIR$/src/Enum.kt" />
         <option value="$PROJECT_DIR$/src/Animal.kt" />
         <option value="$PROJECT_DIR$/src/Arrays.kt" />
+        <option value="$PROJECT_DIR$/src/SomeTests.kt" />
+        <option value="$PROJECT_DIR$/src/links" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="854" />
     <option name="y" value="15" />
     <option name="width" value="816" />
@@ -131,22 +164,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.ArraysKt">
+  <component name="RunManager" selected="Kotlin.SomeTestsKt">
     <configuration name="AbstractClassesKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="AbstractClassesKt" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="LearningKotlin" />
-      <envs />
-    </configuration>
-    <configuration name="AnimalKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="AnimalKt" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -183,6 +204,18 @@
     <configuration name="InterfacesClassesKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="InterfacesClassesKt" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="LearningKotlin" />
+      <envs />
+    </configuration>
+    <configuration name="SomeTestsKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="SomeTestsKt" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -273,19 +306,19 @@
       <listeners />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Kotlin.AnimalKt" />
-      <item index="1" class="java.lang.String" itemvalue="Kotlin.InterfacesClassesKt" />
-      <item index="2" class="java.lang.String" itemvalue="Kotlin.AbstractClassesKt" />
-      <item index="3" class="java.lang.String" itemvalue="Kotlin.GenericClassesKt" />
-      <item index="4" class="java.lang.String" itemvalue="Kotlin.ArraysKt" />
+      <item index="0" class="java.lang.String" itemvalue="Kotlin.InterfacesClassesKt" />
+      <item index="1" class="java.lang.String" itemvalue="Kotlin.AbstractClassesKt" />
+      <item index="2" class="java.lang.String" itemvalue="Kotlin.GenericClassesKt" />
+      <item index="3" class="java.lang.String" itemvalue="Kotlin.ArraysKt" />
+      <item index="4" class="java.lang.String" itemvalue="Kotlin.SomeTestsKt" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Kotlin.ArraysKt" />
-        <item index="1" class="java.lang.String" itemvalue="Kotlin.GenericClassesKt" />
-        <item index="2" class="java.lang.String" itemvalue="Kotlin.AbstractClassesKt" />
-        <item index="3" class="java.lang.String" itemvalue="Kotlin.InterfacesClassesKt" />
-        <item index="4" class="java.lang.String" itemvalue="Kotlin.AnimalKt" />
+        <item index="0" class="java.lang.String" itemvalue="Kotlin.SomeTestsKt" />
+        <item index="1" class="java.lang.String" itemvalue="Kotlin.ArraysKt" />
+        <item index="2" class="java.lang.String" itemvalue="Kotlin.GenericClassesKt" />
+        <item index="3" class="java.lang.String" itemvalue="Kotlin.AbstractClassesKt" />
+        <item index="4" class="java.lang.String" itemvalue="Kotlin.InterfacesClassesKt" />
       </list>
     </recent_temporary>
   </component>
@@ -303,7 +336,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="854" y="15" width="816" height="977" extended-state="0" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -314,12 +347,12 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37306842" sideWeight="0.50208336" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37298638" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3428246" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23378378" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1519871" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -372,14 +405,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="17" column="75" lean-forward="false" selection-start-line="17" selection-start-column="75" selection-end-line="17" selection-end-column="75" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/WhileLoop.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="36" column="22" lean-forward="true" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
           <folding />
         </state>
       </provider>
@@ -539,6 +564,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
           <caret line="104" column="31" lean-forward="false" selection-start-line="104" selection-start-column="31" selection-end-line="104" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/WhileLoop.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="29" column="18" lean-forward="false" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/links">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SomeTests.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="23" column="47" lean-forward="false" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
           <folding />
         </state>
       </provider>
