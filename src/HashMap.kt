@@ -62,4 +62,10 @@ fun main(args: Array<String>) {
         println(item)
     }
 
+
+    println("##### Using hashMapOf ")
+    var myFirstHashMapOf = hashMapOf<String, String>("1" to "One", "2" to "Two")
+    var mySecondHashMapOf = hashMapOf<Int, String>(1 to "One", 2 to "Two")
+    var myTirdHashMapOf = hashMapOf<Int, Int>(1 to 1, 2 to 2)
+
 }
