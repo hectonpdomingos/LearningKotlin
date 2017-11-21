@@ -4,7 +4,7 @@ fun main(args: Array<String>) {
      */
 
     var myDouble = 31.00
-    var myNewDouble: Double = 31.99
+    var myNewDouble = 31.99
 
     println("My double var is $myDouble")
     println("My new double is $myNewDouble")
