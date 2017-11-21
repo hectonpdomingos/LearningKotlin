@@ -1,6 +1,9 @@
 fun main(args: Array<String>) {
     /*
     Double type: Example 31.99 - 10.00
+
+
+
      */
 
     var myDouble = 31.00
