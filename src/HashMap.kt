@@ -69,6 +69,10 @@ fun main(args: Array<String>) {
     var myTirdHashMapOf = hashMapOf<Int, Int>(1 to 1, 2 to 2)
 
 
+    for(item in myFirstHashMapOf){
+        println(item)
+    }
+
     println("#### Creating a immutable Array list (listOf)")
     var myFirstImmutableArrayList = listOf<String>("One 1", "Two 2", "Three 3")
 
