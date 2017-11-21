@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b2c78f7a-a52b-4f13-8d78-47c669c33a86" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VariableInt.kt" afterPath="$PROJECT_DIR$/src/VariableInt.kt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VariableFloat.kt" afterPath="$PROJECT_DIR$/src/VariableFloat.kt" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -56,11 +56,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="VariableInt.kt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="VariableInt.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/VariableInt.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="168">
               <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="VariableFloat.kt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/VariableFloat.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="12" column="27" lean-forward="false" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -89,7 +99,6 @@
         <option value="$PROJECT_DIR$/src/VariableString.kt" />
         <option value="$PROJECT_DIR$/src/VariableDouble.kt" />
         <option value="$PROJECT_DIR$/src/VariableBool.kt" />
-        <option value="$PROJECT_DIR$/src/VariableFloat.kt" />
         <option value="$PROJECT_DIR$/src/VariableChar.kt" />
         <option value="$PROJECT_DIR$/src/ReadInput.kt" />
         <option value="$PROJECT_DIR$/src/WorkingWithNumbers.kt" />
@@ -111,6 +120,7 @@
         <option value="$PROJECT_DIR$/src/HashMap.kt" />
         <option value="$PROJECT_DIR$/src/IO.kt" />
         <option value="$PROJECT_DIR$/src/VariableInt.kt" />
+        <option value="$PROJECT_DIR$/src/VariableFloat.kt" />
       </list>
     </option>
   </component>
@@ -482,14 +492,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/VariableFloat.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" column="67" lean-forward="false" selection-start-line="16" selection-start-column="67" selection-end-line="16" selection-end-column="67" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/VariableDouble.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -624,6 +626,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/VariableFloat.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="27" lean-forward="false" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
           <folding />
         </state>
       </provider>

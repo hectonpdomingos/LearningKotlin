@@ -9,8 +9,8 @@ fun main(args: Array<String>) {
     //You need to put F after to sign float number, bc not
     //it will be double
 
-    newFloat = 31.9F
-    var float: Float = 0.2F
+    newFloat = 31.9f
+    var float: Float = 0.2f
 
 
     println("The variable myFloat kotlin assumes be double $myFloat")
