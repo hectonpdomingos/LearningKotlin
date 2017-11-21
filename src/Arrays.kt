@@ -34,8 +34,12 @@ fun main(args: Array<String>) {
 
 
 
-    //Array with 5 blocks filled with the number 8
+    println("################   Array with 5 blocks filled with the number 8")
     var myFirstArray = Array<Int>(5) {8}
+    for (item in myFirstArray){
+        println(item)
+    }
+
 
     println("################  Arrays Filled with static numbers  #####################")
     val values = arrayOf(1, 2, 3, 4, "Brazil", 'H', "Dimitri")
