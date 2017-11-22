@@ -1,6 +1,8 @@
 fun main(args: Array<String>) {
     /*
     Ways to manipulate string type
+    IN many cases, you don't need specify the type of the variable, kotlin has
+    the ability of the compiler to determine types from context and it is called type inference.
      */
 
     var firstName:String = "Hecton"
