@@ -2,83 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b2c78f7a-a52b-4f13-8d78-47c669c33a86" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_annotations_13_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_1_1_60.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_jre7_1_1_60.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_jre8_1_1_60.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_test_1_1_60.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_bson_3_5_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongodb_driver_3_5_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongodb_driver_core_3_5_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/mongoSettings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/mongodbApp.kt" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/LearningKotlin/AbstractClassesKt.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/LearningKotlin/Animal.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/LearningKotlin/AnimalKt.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/LearningKotlin/ArraysKt.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/LearningKotlin/Box.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/LearningKotlin/Circle.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/LearningKotlin/ClassesKt.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/LearningKotlin/ConvertDataTypesKt.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/LearningKotlin/Dimitri.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/LearningKotlin/EnumKt.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/LearningKotlin/ForLoopKt.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/LearningKotlin/FunctionsKt.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/LearningKotlin/GenericClassesKt.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/LearningKotlin/GraphicObject.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/LearningKotlin/HashMapKt.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/LearningKotlin/IOKt.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/LearningKotlin/InterfacesClassesKt.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/LearningKotlin/Lion.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/LearningKotlin/Login.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/LearningKotlin/META-INF/LearningKotlin.kotlin_module" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/LearningKotlin/MakingDecisionsKt.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/LearningKotlin/ReadInputKt.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/LearningKotlin/SomeTestsKt.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/LearningKotlin/Suits.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/LearningKotlin/VariableBoolKt.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/LearningKotlin/VariableCharKt.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/LearningKotlin/VariableDefinitionKt.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/LearningKotlin/VariableDoubleKt.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/LearningKotlin/VariableFloatKt.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/LearningKotlin/VariableIntKt.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/LearningKotlin/VariableStringKt.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/LearningKotlin/WhileLoopKt.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/LearningKotlin/WorkingWithNumbersKt.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/LearningKotlin/actions.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/LearningKotlin/company.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/LearningKotlin/links" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/LearningKotlin/myG.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/AbstractClasses.kt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Animal.kt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Arrays.kt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Classes.kt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ConvertDataTypes.kt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Enum.kt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ForLoop.kt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Functions.kt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/GenericClasses.kt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/HashMap.kt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/IO.kt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/MakingDecisions.kt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ReadInput.kt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/SomeTests.kt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/VariableBool.kt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/VariableChar.kt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/VariableDefinition.kt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/VariableDouble.kt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/VariableFloat.kt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/VariableInt.kt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/VariableString.kt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/WhileLoop.kt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/WorkingWithNumbers.kt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/interfacesClasses.kt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/links" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/BooksExamples.kt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/META-INF/LearningKotlin.kotlin_module" afterPath="$PROJECT_DIR$/target/classes/META-INF/LearningKotlin.kotlin_module" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/MongodbAppKt.class" afterPath="$PROJECT_DIR$/target/classes/MongodbAppKt.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LearningKotlin.iml" afterPath="$PROJECT_DIR$/LearningKotlin.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/mongodbApp.kt" afterPath="$PROJECT_DIR$/src/main/java/mongodbApp.kt" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -91,23 +19,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="mongodbApp.kt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/mongodbApp.kt">
+      <file leaf-file-name="BooksExamples.kt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/BooksExamples.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
-              <caret line="28" column="25" lean-forward="false" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
-              <folding>
-                <element signature="e#0#283#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="415">
-              <caret line="30" column="21" lean-forward="false" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
+            <state relative-caret-position="105">
+              <caret line="5" column="4" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -166,6 +82,7 @@
         <option value="$PROJECT_DIR$/LearningKotlin.iml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/mongodbApp.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/BooksExamples.kt" />
       </list>
     </option>
   </component>
@@ -244,10 +161,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.WhileLoopKt">
+  <component name="RunManager" selected="Kotlin.BooksExamplesKt">
     <configuration name="ArraysKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="ArraysKt" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="LearningKotlin" />
+      <envs />
+    </configuration>
+    <configuration name="BooksExamplesKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="BooksExamplesKt" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -272,18 +201,6 @@
     <configuration name="MongodbAppKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="MongodbAppKt" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="LearningKotlin" />
-      <envs />
-    </configuration>
-    <configuration name="RangesKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="RangesKt" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -387,18 +304,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Kotlin.ArraysKt" />
-      <item index="1" class="java.lang.String" itemvalue="Kotlin.RangesKt" />
-      <item index="2" class="java.lang.String" itemvalue="Kotlin.MakingDecisionsKt" />
-      <item index="3" class="java.lang.String" itemvalue="Kotlin.MongodbAppKt" />
-      <item index="4" class="java.lang.String" itemvalue="Kotlin.WhileLoopKt" />
+      <item index="1" class="java.lang.String" itemvalue="Kotlin.MakingDecisionsKt" />
+      <item index="2" class="java.lang.String" itemvalue="Kotlin.MongodbAppKt" />
+      <item index="3" class="java.lang.String" itemvalue="Kotlin.WhileLoopKt" />
+      <item index="4" class="java.lang.String" itemvalue="Kotlin.BooksExamplesKt" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Kotlin.WhileLoopKt" />
+        <item index="0" class="java.lang.String" itemvalue="Kotlin.BooksExamplesKt" />
         <item index="1" class="java.lang.String" itemvalue="Kotlin.MongodbAppKt" />
-        <item index="2" class="java.lang.String" itemvalue="Kotlin.MakingDecisionsKt" />
-        <item index="3" class="java.lang.String" itemvalue="Kotlin.ArraysKt" />
-        <item index="4" class="java.lang.String" itemvalue="Kotlin.RangesKt" />
+        <item index="2" class="java.lang.String" itemvalue="Kotlin.WhileLoopKt" />
+        <item index="3" class="java.lang.String" itemvalue="Kotlin.MakingDecisionsKt" />
+        <item index="4" class="java.lang.String" itemvalue="Kotlin.ArraysKt" />
       </list>
     </recent_temporary>
   </component>
@@ -426,16 +343,17 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.49785176" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33143508" sideWeight="0.4828142" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33143508" sideWeight="0.48066595" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41343963" sideWeight="0.35338345" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41343963" sideWeight="0.35606873" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41343963" sideWeight="0.6466165" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41343963" sideWeight="0.64393127" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.49785176" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20354457" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.49785176" order="7" side_tool="false" content_ui="tabs" />
@@ -825,6 +743,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mongodbApp.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="22" column="21" lean-forward="false" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#283#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="415">
@@ -833,13 +761,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mongodbApp.kt">
+    <entry file="file://$PROJECT_DIR$/src/main/java/BooksExamples.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="28" column="25" lean-forward="false" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#283#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="105">
+          <caret line="5" column="4" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+          <folding />
         </state>
       </provider>
     </entry>

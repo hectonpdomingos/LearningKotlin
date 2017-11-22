@@ -20,7 +20,7 @@ var collection = database.getCollection("tasks");
 fun main(args: Array<String>) {
     val collection = database.getCollection("tasks")
 
-    collection.insertOne()
+    collection.find()
 
 }
 
