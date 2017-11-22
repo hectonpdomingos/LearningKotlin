@@ -1,0 +1,18 @@
+From kotlin in action book, just to keep in mind about Kotlin
+#Pros
+Performance
+Reliability
+Maintainability
+Tool support
+
+#funtional and object oriented
+
+first-class functions
+Immutability
+No side effects
+safe multithreaing
+Functional types
+Lamdba expressions
+Data classes
+Inlining lambdas ensures that no new objects will be created
+and the application won’t suffer from extra GC pauses.
