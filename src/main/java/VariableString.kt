@@ -35,6 +35,16 @@ fun main(args: Array<String>) {
     println("The var myFirstName $myFirstName is immutable")
     println("The var myFirstName2 is $myFirstName2")
 
+    /*
+    $variable inside the string is called String template
+    if you need to add $ on string you need to scape it like that
+
+     \$12,99
+     */
+
+    val total:Double = 9.99
+
+    println("You need to pay \$$total")
 
 
 }

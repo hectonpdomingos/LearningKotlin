@@ -56,5 +56,14 @@ fun main(args: Array<String>) {
     println(signUpCompany.GetName())
 
 
+    //custom classes
+    val rectangle = Rectangle(41, 43)
+    println(rectangle.isSquare)
 
+}
+
+//custom classes
+class Rectangle(val height: Int, val width: Int)
+{ val isSquare: Boolean
+    get() { return height == width }
 }
