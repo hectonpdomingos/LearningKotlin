@@ -72,9 +72,9 @@ println("Type a value to when/switch statement")
     }
 
 
-
-
-
+println("Checking the type")
+var myValue:String = "oi"
+    if (myValue is String) println(myValue.toUpperCase())
 
 
 
