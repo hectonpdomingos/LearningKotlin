@@ -18,6 +18,11 @@ fun main(args: Array<String>) {
     /*
     Note that,even though aval reference  is it self immutable and cannot be changed,
     the object that it points to may be mutable
+
+    val languages = arrayListOf("Russian", "Portuguese")
+    languages.add("English")
+
+
      */
 
     //If you don not want to set the values in the declaration
