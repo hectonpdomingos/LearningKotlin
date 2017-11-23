@@ -15,6 +15,11 @@ fun main(args: Array<String>) {
     //If you want turn firstName immutable use val
     val myFirstName:String = "Hecton"
 
+    /*
+    Note that,even though aval reference  is it self immutable and cannot be changed,
+    the object that it points to may be mutable
+     */
+
     //If you don not want to set the values in the declaration
     //use ? = null
 

@@ -33,7 +33,7 @@ fun max(a: Int, b: Int): Int { return if (a > b) a else b }
 /*
 Note that omitting the return type is allowed only for functions with an expression body.
 For functions with a block body that return a value, you have to specify the return type
-and write the return statements explicitly. 
+and write the return statements explicitly.
  */
 
 
