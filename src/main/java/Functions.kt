@@ -28,8 +28,13 @@ max(6,9)
 
 //return max number
 fun max(a: Int, b: Int): Int { return if (a > b) a else b }
-//second way to do it
+//second way to do it - type inference
 // fun max(a: Int, b: Int) = if (a > b) a else b
+/*
+Note that omitting the return type is allowed only for functions with an expression body.
+For functions with a block body that return a value, you have to specify the return type
+and write the return statements explicitly. 
+ */
 
 
 //with return
