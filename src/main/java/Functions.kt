@@ -22,9 +22,15 @@ fun main(args: Array<String>) {
 
     println("The employee is ${form2("Hecton", 31, 6.999)}")
 
-
+max(6,9)
 
 }
+
+//return max number
+fun max(a: Int, b: Int): Int { return if (a > b) a else b }
+//second way to do it
+// fun max(a: Int, b: Int) = if (a > b) a else b
+
 
 //with return
 fun add(num1: Int, num2: Int): Int{
