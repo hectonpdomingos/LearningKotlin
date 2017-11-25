@@ -51,4 +51,13 @@ fun useParam(employee: List<Employee>, num: Int)
     }
 }
 
+
+/*
+Function Scope. In Kotlin functions can be declared at top level in a file,
+meaning you do not need to create a class to hold a function, like languages
+such as Java, C# or Scala. In addition to top level functions, Kotlin
+functions can also be declared local, as member functions and extension
+functions.
+ */
+
 fun topLevelFunction() = println("Top level function")
