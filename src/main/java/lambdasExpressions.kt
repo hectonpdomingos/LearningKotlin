@@ -32,6 +32,11 @@ fun main(args: Array<String>) {
     run(::topLevelFunction)
 
 
+
+println("Without with function")
+println(firstCountTo100())
+println("With function")
+println(secondCountTo100())
 }
 
 //if return a reference with (class Employee), just add "data" in the beginning
@@ -61,3 +66,30 @@ functions.
  */
 
 fun topLevelFunction() = println("Top level function")
+
+
+
+//without (With function)
+fun firstCountTo100(): String{
+    val numbers = StringBuilder()
+    for(i in 1..99){
+        numbers.append(i)
+        numbers.append(", ")
+    }
+    numbers.append(100)
+    return numbers.toString()
+
+}
+
+//With  function
+fun secondCountTo100(): String{
+    val numbers = StringBuilder()
+    return with (numbers) {
+        for (i in 1..99) {
+            append(i)
+            append(", ")
+        }
+        append(100)
+        toString()
+    }
+}
