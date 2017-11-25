@@ -81,7 +81,7 @@ fun firstCountTo100(): String{
 
 }
 
-//With  function
+//With  function - Inside the with function you dont need to refer the obj
 fun secondCountTo100(): String{
     val numbers = StringBuilder()
     return with (numbers) {
@@ -93,3 +93,27 @@ fun secondCountTo100(): String{
         toString()
     }
 }
+
+//using  expression body
+fun thirdCountTo100() =
+    with(StringBuilder()){
+            for (i in 1..99) {
+            append(i)
+            append(", ")
+        }
+        append(100)
+        toString()
+}
+
+
+//using apply function - Calls the specified function block with this value
+// as its receiver and returns this value.
+
+fun applyCountTo100() =
+        StringBuilder().apply(){
+    for (i in 1..99) {
+        append(i)
+        append(", ")
+    }
+    append(100)
+}.toString()
