@@ -10,7 +10,7 @@ fun main(args: Array<String>) {
 println(employees.minBy { e -> e.startYear })
 }
 
-//if return memory objects with class Employee, just add "data" in the beginning
+//if return a reference with (class Employee), just add "data" in the beginning
 data class Employee(val firstName: String, val lastName: String, val startYear: Int){
 
 }
