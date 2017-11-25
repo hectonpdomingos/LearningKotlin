@@ -6,8 +6,5 @@ fun main(args: Array<String>) {
 
    Usuario("Hecton", 31)
 
-    var arr = meuArray(){
-
-    }
 
 }
