@@ -30,8 +30,17 @@ fun main(args: Array<String>) {
         }
     }
 
-
-
+    println("Playing with arrayListOf")
+   var food = arrayListOf("Banana", "Apple", "Watermelon", "Orange")
+   println(food.size)
+    println("Adding Pasta on arrayListOf")
+   food.add("Pasta")
+    println("Adding Meat on idex 0")
+   food.add(0, "Meat")
+    println("Showing the indexof banana")
+   println(food.indexOf("Banana"))
+    println("Removing the apple from Array ")
+    food.remove("Apple")
 
 
     println("################   Array with 5 blocks filled with the number 8")
@@ -124,6 +133,7 @@ println("Output the result 0, 1,2,3 - X index")
     println(members)
     println("Showing the list sorted")
     println(members.sorted())
+    println(members.last())
 
 
 
