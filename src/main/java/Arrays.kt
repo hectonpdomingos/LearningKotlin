@@ -30,17 +30,26 @@ fun main(args: Array<String>) {
         }
     }
 
-    println("Playing with arrayListOf")
+    println("#############   Playing with arrayListOf ############")
    var food = arrayListOf("Banana", "Apple", "Watermelon", "Orange")
    println(food.size)
     println("Adding Pasta on arrayListOf")
    food.add("Pasta")
-    println("Adding Meat on idex 0")
+    println("Adding Meat on index 0")
    food.add(0, "Meat")
     println("Showing the indexof banana")
    println(food.indexOf("Banana"))
     println("Removing the apple from Array ")
     food.remove("Apple")
+
+
+    println("############## Playing with mapOf ###########")
+
+    var languages = mapOf("pt-br" to "Brazil", "En" to "USA", "Es" to "Spain")
+    println(languages["En"])
+    println(languages.get("pt-br"))
+    println(languages.getOrDefault("Es", "This language does not exist on this array"))
+
 
 
     println("################   Array with 5 blocks filled with the number 8")
