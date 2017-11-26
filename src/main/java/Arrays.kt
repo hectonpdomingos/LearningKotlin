@@ -118,6 +118,16 @@ println("Output the result 0, 1,2,3 - X index")
     }
 
 
+    println("############# array listOf  ########")
+    var members = listOf("Hecton", "Dimitri", "Igor", "Helena", "Liza")
+    println("Showing the normal order")
+    println(members)
+    println("Showing the list sorted")
+    println(members.sorted())
+
+
+
+
 }
 
 

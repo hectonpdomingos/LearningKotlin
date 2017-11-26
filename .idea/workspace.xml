@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b2c78f7a-a52b-4f13-8d78-47c669c33a86" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Functions.kt" afterPath="$PROJECT_DIR$/src/main/java/Functions.kt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Arrays.kt" afterPath="$PROJECT_DIR$/src/main/java/Arrays.kt" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -18,11 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="Arrays.kt" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Arrays.kt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Arrays.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="43" column="4" lean-forward="true" selection-start-line="43" selection-start-column="4" selection-end-line="47" selection-end-column="5" />
+            <state relative-caret-position="304">
+              <caret line="122" column="4" lean-forward="false" selection-start-line="122" selection-start-column="4" selection-end-line="122" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -70,10 +70,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Functions.kt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Functions.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Functions.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="423">
+            <state relative-caret-position="-76">
               <caret line="34" column="31" lean-forward="false" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
               <folding />
             </state>
@@ -178,13 +178,13 @@
         <option value="$PROJECT_DIR$/src/main/java/MakingDecisions.kt" />
         <option value="$PROJECT_DIR$/src/main/java/VariableString.kt" />
         <option value="$PROJECT_DIR$/src/main/java/Classes.kt" />
-        <option value="$PROJECT_DIR$/src/main/java/Arrays.kt" />
         <option value="$PROJECT_DIR$/src/main/java/ClassOne.kt" />
         <option value="$PROJECT_DIR$/src/main/java/Enum.kt" />
         <option value="$PROJECT_DIR$/src/main/java/ClassThree.kt" />
         <option value="$PROJECT_DIR$/src/main/java/ClassTwo.kt" />
         <option value="$PROJECT_DIR$/src/main/java/lambdasExpressions.kt" />
         <option value="$PROJECT_DIR$/src/main/java/Functions.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/Arrays.kt" />
       </list>
     </option>
   </component>
@@ -892,18 +892,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Arrays.kt">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Functions.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="43" column="4" lean-forward="true" selection-start-line="43" selection-start-column="4" selection-end-line="47" selection-end-column="5" />
+        <state relative-caret-position="-76">
+          <caret line="34" column="31" lean-forward="false" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Functions.kt">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Arrays.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="34" column="31" lean-forward="false" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
+        <state relative-caret-position="304">
+          <caret line="122" column="4" lean-forward="false" selection-start-line="122" selection-start-column="4" selection-end-line="122" selection-end-column="4" />
           <folding />
         </state>
       </provider>
