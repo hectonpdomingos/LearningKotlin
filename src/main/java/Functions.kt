@@ -26,6 +26,19 @@ max(6,9)
 
 }
 
+//function with statement on it
+
+fun myMood(mood: String = "happy"){
+    if (mood == "happy"){
+        println("Lets play a game")
+    }else{
+        println("It is not good")
+    }
+}
+
+
+
+
 //return max number
 fun max(a: Int, b: Int): Int { return if (a > b) a else b }
 //second way to do it - type inference
