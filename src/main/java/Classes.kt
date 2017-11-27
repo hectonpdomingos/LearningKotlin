@@ -33,6 +33,8 @@ class company(name: String, founded: Int, numberEmployees: Double){
 
 fun main(args: Array<String>) {
 
+
+
     //create a object "signUpCompany"
     var signUpCompany = company("Hecton Support", 2002, 2.999)
     println("Company :" + signUpCompany.name + " | Year of foundation: " + signUpCompany.founded + " | Number of employees: " + signUpCompany.numberEmployees)
