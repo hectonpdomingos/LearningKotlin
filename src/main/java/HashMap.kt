@@ -68,7 +68,14 @@ fun main(args: Array<String>) {
     var mySecondHashMapOf = hashMapOf<Int, String>(1 to "One", 2 to "Two")
     var myTirdHashMapOf = hashMapOf<Int, Int>(1 to 1, 2 to 2)
 
+    println(" ####Add elements")
+    mySecondHashMapOf.put(3, "Three")
+    println(" ####### Showing   mySecondHashMapOf")
+    println(mySecondHashMapOf)
 
+
+
+    println(" ####### Using loop for to myFirstHashMapOf")
     for(item in myFirstHashMapOf){
         println(item)
     }
@@ -92,4 +99,7 @@ fun main(args: Array<String>) {
     for (item in myListWithoutType){
         println(item)
     }
+
+
+
 }
