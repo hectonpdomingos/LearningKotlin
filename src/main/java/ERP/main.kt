@@ -1,7 +1,44 @@
-package ERP
+
 /*
 Mockup ERP developed in Kotlin - Hecton P. Domingos
+
+
  */
+
+
+var storeData = ArrayList<String>()
+
+
+open class AddPersonData(name: String, birth: String, address: String, phone: String){
+    var name: String? = null
+    var birth: String? = null
+    var address: String? = null
+    var phone: String? = null
+
+    init{
+        this.name = name
+        this.birth = birth
+        this.address = address
+        this.phone = phone
+
+        storeData.add(name)
+        storeData.add(birth)
+        storeData.add(address)
+        storeData.add(phone)
+        storeData.add("|")
+
+    }
+
+
+
+}
+
+
+
+
+
+
+
 
 fun main(args: Array<String>) {
 
@@ -33,9 +70,15 @@ fun main(args: Array<String>) {
                     println("4: Change")
                     println("5: Back to main menu")
                     var clientControlMenu = readLine()!!.toInt()
+                    if (clientControlMenu != 1  || clientControlMenu != 2 || clientControlMenu != 3 || clientControlMenu != 4 || clientControlMenu != 5){
+                        println("######### select the right ########### ")
+
+                    }else if(clientControlMenu.equals(5)){
+                        clientControl = true
+                    }
 
 
-
+               //option
                 when(clientControlMenu){
                     1 -> {
 
@@ -43,7 +86,10 @@ fun main(args: Array<String>) {
                         println(" ")
 
                         for(item in storeData) {
-                            println(item)
+                            print("  " + item + "  ")
+                            if(item.equals("|")){
+                                println("")
+                            }
                         }
 
                         println("")
@@ -54,21 +100,16 @@ fun main(args: Array<String>) {
 
 
                     2->{
-                        println("Enter the full name")
-                        var name: String = readLine().toString()
-                        println("Enter the birth date")
-                        var birth: String = readLine().toString()
-                        println("Enter the Address")
-                        var address: String = readLine().toString()
-                        println("Enter the phone number")
-                        var phone: String = readLine().toString()
-                        AddPersonData(name, birth, address,phone)
 
-
-                        getStoreData()
-
-
-
+                            println("Enter the full name")
+                            var name: String = readLine().toString()
+                            println("Enter the birth date")
+                            var birth: String = readLine().toString()
+                            println("Enter the Address")
+                            var address: String = readLine().toString()
+                            println("Enter the phone number")
+                            var phone: String = readLine().toString()
+                            AddPersonData(name, birth, address, phone)
 
                     }
 
@@ -77,9 +118,9 @@ fun main(args: Array<String>) {
                     4 ->{}
 
 
-                }
+                  }
                     //End Client Control
-                } while (!clientControl)
+                } while (clientControl.equals(false))
 
 
 
@@ -94,8 +135,6 @@ fun main(args: Array<String>) {
                 println("3: Remove")
                 println("4: Change")
                 println("5: Back to main menu")
-                var employeeControlMenu = readLine()!!.toInt()
-
 
 
             }
