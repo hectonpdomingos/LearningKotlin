@@ -141,6 +141,9 @@ var funcAnonimous = fun(name: String){
     println("My name is ${name}")
 }
 
+// manipulating arrays
+var doubles = doubleArrayOf(1.1,1.2,1.3,1.4,1.5)
+
 fun soma(args: Array<String>){
     println("Sum0 = ${sum0(10.1, 11.2)}")
 
@@ -153,4 +156,7 @@ fun soma(args: Array<String>){
     //sum
     funcAnonimous("Hecton")
 
+
+    //manipulating arrays
+    doubles.forEach { eachNumber -> println(eachNumber) }
 }
