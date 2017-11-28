@@ -135,6 +135,12 @@ var sum1 = fun(x: Double, y: Double): Double{
 val sum2 = {x: Double, y: Double -> x + y}
 val sum3:(Double, Double) -> Double = {x , y -> x + y}
 
+//passing data anonimous func without return
+
+var funcAnonimous = fun(name: String){
+    println("My name is ${name}")
+}
+
 fun soma(args: Array<String>){
     println("Sum0 = ${sum0(10.1, 11.2)}")
 
@@ -143,4 +149,8 @@ fun soma(args: Array<String>){
     println("Sum2 = ${sum2(10.1, 11.2)}")
 
     println("Sum3 ${sum3(10.1, 11.2)} ")
+
+    //sum
+    funcAnonimous("Hecton")
+
 }
