@@ -145,6 +145,9 @@ println("Output the result 0, 1,2,3 - X index")
     println(members.last())
 
 
+    var doubles = doubleArrayOf(1.1,1.2,1.3,1.4,1.5)
+    //manipulating arrays
+    doubles.forEach { eachNumber -> println(eachNumber) }
 
 
 }
