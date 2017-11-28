@@ -126,15 +126,21 @@ fun applyCountTo100() =
 fun sum0(x: Double, y:Double): Double{
     return x + y
 }
+//Anonimous function
+var sum1 = fun(x: Double, y: Double): Double{
+    return x / y
+}
 
 //Using lambda
-val sum1 = {x: Double, y: Double -> x + y}
-val sum2:(Double, Double) -> Double = {x , y -> x + y}
+val sum2 = {x: Double, y: Double -> x + y}
+val sum3:(Double, Double) -> Double = {x , y -> x + y}
 
 fun soma(args: Array<String>){
     println("Sum0 = ${sum0(10.1, 11.2)}")
 
     println("Sum1 = ${sum1(10.1, 11.2)}")
 
-    println("Sum2 ${sum2(10.1, 11.2)} ")
+    println("Sum2 = ${sum2(10.1, 11.2)}")
+
+    println("Sum3 ${sum3(10.1, 11.2)} ")
 }
