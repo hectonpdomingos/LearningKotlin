@@ -1,3 +1,5 @@
+import java.sql.Connection
+
 // The class company has the name, founded and numberEmployees parameters/proprieties
 class company(name: String, founded: Int, numberEmployees: Double){
 
@@ -64,8 +66,19 @@ fun main(args: Array<String>) {
 
 }
 
+
 //custom classes
 class Rectangle(val height: Int, val width: Int)
 { val isSquare: Boolean
     get() { return height == width }
+}
+
+
+//If you don't want to have your constructor accessed
+// directly, you should mark it private, protected, or
+// internal
+
+class Database internal constructor(connection: Connection) {
+
+
 }
