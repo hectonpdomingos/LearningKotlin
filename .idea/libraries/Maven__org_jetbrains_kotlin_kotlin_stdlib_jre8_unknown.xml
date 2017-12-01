@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.jetbrains.kotlin:kotlin-stdlib-jre8:unknown">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/jetbrains/kotlin/kotlin-stdlib-jre8/unknown/kotlin-stdlib-jre8-unknown.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/jetbrains/kotlin/kotlin-stdlib-jre8/unknown/kotlin-stdlib-jre8-unknown-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/jetbrains/kotlin/kotlin-stdlib-jre8/unknown/kotlin-stdlib-jre8-unknown-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

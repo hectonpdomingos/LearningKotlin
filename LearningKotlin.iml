@@ -6,7 +6,7 @@
         <compilerSettings />
         <compilerArguments>
           <option name="jvmTarget" value="1.8" />
-          <option name="languageVersion" value="1.1" />
+          <option name="languageVersion" value="1.2" />
           <option name="apiVersion" value="1.1" />
           <option name="pluginOptions">
             <array />
@@ -30,11 +30,8 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="KotlinJavaRuntime" level="project" />
-    <orderEntry type="library" name="Maven: org.jetbrains.kotlin:kotlin-stdlib-jre8:1.1.60" level="project" />
-    <orderEntry type="library" name="Maven: org.jetbrains.kotlin:kotlin-stdlib:1.1.60" level="project" />
-    <orderEntry type="library" name="Maven: org.jetbrains:annotations:13.0" level="project" />
-    <orderEntry type="library" name="Maven: org.jetbrains.kotlin:kotlin-stdlib-jre7:1.1.60" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.jetbrains.kotlin:kotlin-test:1.1.60" level="project" />
+    <orderEntry type="library" name="Maven: org.jetbrains.kotlin:kotlin-stdlib-jre8:unknown" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.jetbrains.kotlin:kotlin-test:unknown" level="project" />
     <orderEntry type="library" name="Maven: org.mongodb:mongodb-driver:3.5.0" level="project" />
     <orderEntry type="library" name="Maven: org.mongodb:bson:3.5.0" level="project" />
     <orderEntry type="library" name="Maven: org.mongodb:mongodb-driver-core:3.5.0" level="project" />
