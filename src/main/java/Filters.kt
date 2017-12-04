@@ -25,13 +25,27 @@ fun company() {
 }
 
 
+var family: List<String> = listOf("Dimitri", "Liza", "Igor", "Elena", "Hecton")
+
+
 fun main(args: Array<String>) {
+
+
+    println("filtering only one string")
+    println(family.filter { it == "Hecton" })
+    println("filtering - getting all except one")
+    println(family.filter { it != "Hecton" })
+
+    println("__")
    filters("Spanish")
 
+
+    println("Calling a function thats find even numbers ")
     evenNumbers()
 
 
+    println("Calling a function thats find a employee")
     company()
-    
+
 
 }
