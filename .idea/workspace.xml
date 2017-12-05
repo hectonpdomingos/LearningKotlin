@@ -2,80 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b2c78f7a-a52b-4f13-8d78-47c669c33a86" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_7_dmr.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/AnotationClass.kt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/dbConection.kt" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/FiltersKt$company$TheEmployee.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/AbstractClassesKt.class" afterPath="$PROJECT_DIR$/target/classes/AbstractClassesKt.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/AddPersonData.class" afterPath="$PROJECT_DIR$/target/classes/AddPersonData.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Animal.class" afterPath="$PROJECT_DIR$/target/classes/Animal.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/AnimalKt.class" afterPath="$PROJECT_DIR$/target/classes/AnimalKt.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ArraysKt.class" afterPath="$PROJECT_DIR$/target/classes/ArraysKt.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/BooksExamplesKt.class" afterPath="$PROJECT_DIR$/target/classes/BooksExamplesKt.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Box.class" afterPath="$PROJECT_DIR$/target/classes/Box.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Circle.class" afterPath="$PROJECT_DIR$/target/classes/Circle.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ClassesKt.class" afterPath="$PROJECT_DIR$/target/classes/ClassesKt.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ConvertDataTypesKt.class" afterPath="$PROJECT_DIR$/target/classes/ConvertDataTypesKt.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Database.class" afterPath="$PROJECT_DIR$/target/classes/Database.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Dimitri.class" afterPath="$PROJECT_DIR$/target/classes/Dimitri.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ERP/AddPersonData.class" afterPath="$PROJECT_DIR$/target/classes/ERP/AddPersonData.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ERP/ControlKt.class" afterPath="$PROJECT_DIR$/target/classes/ERP/ControlKt.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ERP/NullSafetyKt.class" afterPath="$PROJECT_DIR$/target/classes/ERP/NullSafetyKt.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ERP/Person.class" afterPath="$PROJECT_DIR$/target/classes/ERP/Person.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Employee.class" afterPath="$PROJECT_DIR$/target/classes/Employee.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/EnumKt.class" afterPath="$PROJECT_DIR$/target/classes/EnumKt.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/FiltersKt.class" afterPath="$PROJECT_DIR$/target/classes/FiltersKt.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ForLoopKt.class" afterPath="$PROJECT_DIR$/target/classes/ForLoopKt.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/FunctionsKt.class" afterPath="$PROJECT_DIR$/target/classes/FunctionsKt.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/GenericClassesKt.class" afterPath="$PROJECT_DIR$/target/classes/GenericClassesKt.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/GraphicObject.class" afterPath="$PROJECT_DIR$/target/classes/GraphicObject.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/HashMapKt.class" afterPath="$PROJECT_DIR$/target/classes/HashMapKt.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/IOKt.class" afterPath="$PROJECT_DIR$/target/classes/IOKt.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/InterfacesClassesKt.class" afterPath="$PROJECT_DIR$/target/classes/InterfacesClassesKt.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/LambdasExpressionsKt$funcAnonimous$1.class" afterPath="$PROJECT_DIR$/target/classes/LambdasExpressionsKt$funcAnonimous$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/LambdasExpressionsKt$sum1$1.class" afterPath="$PROJECT_DIR$/target/classes/LambdasExpressionsKt$sum1$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/LambdasExpressionsKt$sum2$1.class" afterPath="$PROJECT_DIR$/target/classes/LambdasExpressionsKt$sum2$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/LambdasExpressionsKt$sum3$1.class" afterPath="$PROJECT_DIR$/target/classes/LambdasExpressionsKt$sum3$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/LambdasExpressionsKt.class" afterPath="$PROJECT_DIR$/target/classes/LambdasExpressionsKt.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/LearningKotlin/ClassTwoKt.class" afterPath="$PROJECT_DIR$/target/classes/LearningKotlin/ClassTwoKt.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/LearningKotlin/Usuario.class" afterPath="$PROJECT_DIR$/target/classes/LearningKotlin/Usuario.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/LearningKotlin/meuArray.class" afterPath="$PROJECT_DIR$/target/classes/LearningKotlin/meuArray.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Lion.class" afterPath="$PROJECT_DIR$/target/classes/Lion.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Login.class" afterPath="$PROJECT_DIR$/target/classes/Login.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/META-INF/LearningKotlin.kotlin_module" afterPath="$PROJECT_DIR$/target/classes/META-INF/LearningKotlin.kotlin_module" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/MainKt.class" afterPath="$PROJECT_DIR$/target/classes/MainKt.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/MakingDecisionsKt.class" afterPath="$PROJECT_DIR$/target/classes/MakingDecisionsKt.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/MongodbAppKt.class" afterPath="$PROJECT_DIR$/target/classes/MongodbAppKt.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Person.class" afterPath="$PROJECT_DIR$/target/classes/Person.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/RangesKt.class" afterPath="$PROJECT_DIR$/target/classes/RangesKt.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ReadInputKt.class" afterPath="$PROJECT_DIR$/target/classes/ReadInputKt.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Rectangle.class" afterPath="$PROJECT_DIR$/target/classes/Rectangle.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/SealedKt.class" afterPath="$PROJECT_DIR$/target/classes/SealedKt.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/SomeTestsKt.class" afterPath="$PROJECT_DIR$/target/classes/SomeTestsKt.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Suits.class" afterPath="$PROJECT_DIR$/target/classes/Suits.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/VariableBoolKt.class" afterPath="$PROJECT_DIR$/target/classes/VariableBoolKt.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/VariableCharKt.class" afterPath="$PROJECT_DIR$/target/classes/VariableCharKt.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/VariableDefinitionKt.class" afterPath="$PROJECT_DIR$/target/classes/VariableDefinitionKt.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/VariableDoubleKt.class" afterPath="$PROJECT_DIR$/target/classes/VariableDoubleKt.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/VariableFloatKt.class" afterPath="$PROJECT_DIR$/target/classes/VariableFloatKt.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/VariableIntKt.class" afterPath="$PROJECT_DIR$/target/classes/VariableIntKt.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/VariableStringKt.class" afterPath="$PROJECT_DIR$/target/classes/VariableStringKt.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/WhileLoopKt.class" afterPath="$PROJECT_DIR$/target/classes/WhileLoopKt.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/WorkingWithNumbersKt.class" afterPath="$PROJECT_DIR$/target/classes/WorkingWithNumbersKt.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/actions.class" afterPath="$PROJECT_DIR$/target/classes/actions.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/company.class" afterPath="$PROJECT_DIR$/target/classes/company.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/myG.class" afterPath="$PROJECT_DIR$/target/classes/myG.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/programmingLanguage$ccharp.class" afterPath="$PROJECT_DIR$/target/classes/programmingLanguage$ccharp.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/programmingLanguage$cplusplus.class" afterPath="$PROJECT_DIR$/target/classes/programmingLanguage$cplusplus.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/programmingLanguage$kotlin.class" afterPath="$PROJECT_DIR$/target/classes/programmingLanguage$kotlin.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/programmingLanguage$nodejs.class" afterPath="$PROJECT_DIR$/target/classes/programmingLanguage$nodejs.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/programmingLanguage.class" afterPath="$PROJECT_DIR$/target/classes/programmingLanguage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/kotlinc.xml" afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ERP/databaseConnection.kt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LearningKotlin.iml" afterPath="$PROJECT_DIR$/LearningKotlin.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Filters.kt" afterPath="$PROJECT_DIR$/src/main/java/Filters.kt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/dbConection.kt" afterPath="$PROJECT_DIR$/src/main/java/dbConection.kt" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -97,21 +26,11 @@
       <file leaf-file-name="dbConection.kt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/dbConection.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="24" column="47" lean-forward="false" selection-start-line="24" selection-start-column="47" selection-end-line="24" selection-end-column="47" />
+            <state relative-caret-position="357">
+              <caret line="17" column="4" lean-forward="false" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
               <folding>
                 <element signature="e#0#116#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="35" column="21" lean-forward="false" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -138,7 +57,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/VariableChar.kt" />
         <option value="$PROJECT_DIR$/src/ReadInput.kt" />
         <option value="$PROJECT_DIR$/src/WorkingWithNumbers.kt" />
         <option value="$PROJECT_DIR$/src/ConvertDataTypes.kt" />
@@ -188,6 +106,7 @@
         <option value="$PROJECT_DIR$/src/main/java/Destructuring.kt" />
         <option value="$PROJECT_DIR$/src/main/java/ERP/dbConection.kt" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/ERP/databaseConnection.kt" />
         <option value="$PROJECT_DIR$/src/main/java/dbConection.kt" />
       </list>
     </option>
@@ -503,7 +422,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39338654" sideWeight="0.36251342" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.49785176" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29532498" sideWeight="0.6374866" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.014823261" sideWeight="0.6374866" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283582" sideWeight="0.49785176" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -566,13 +485,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/Arrays.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Arrays.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -828,13 +740,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ERP/main.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="469">
-          <caret line="120" column="17" lean-forward="false" selection-start-line="120" selection-start-column="17" selection-end-line="120" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Arrays.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3150">
@@ -902,10 +807,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ERP/main.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="50" column="17" lean-forward="true" selection-start-line="50" selection-start-column="17" selection-end-line="50" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ERP/databaseConnection.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="557">
+          <caret line="32" column="34" lean-forward="false" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
+          <folding>
+            <element signature="e#13#129#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/dbConection.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="24" column="47" lean-forward="false" selection-start-line="24" selection-start-column="47" selection-end-line="24" selection-end-column="47" />
+        <state relative-caret-position="357">
+          <caret line="17" column="4" lean-forward="false" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
           <folding>
             <element signature="e#0#116#0" expanded="true" />
           </folding>
