@@ -7,6 +7,7 @@
       <root url="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-jre7.jar!/" />
       <root url="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-jre8.jar!/" />
       <root url="file://$PROJECT_DIR$/src/main/java/ERP/lib" />
+      <root url="file://$PROJECT_DIR$/src/main/java/lib" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

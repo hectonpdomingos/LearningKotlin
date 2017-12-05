@@ -15,8 +15,28 @@ class DBConnection {
     this.username + "&password=" + this.password + "&noAccessToProcedureBodies=true"
     var theClassName = "com.mysql.cj.jdbc.Driver"
 
-      
+   fun createDB(){
+       var createTaskDB = "CREATE DATABASE tasks_db"
+       Class.forName(theClassName)
+       var conn: Connection = DriverManager.getConnection(strConnessione)
+       var ps: PreparedStatement = conn.prepareStatement(createTaskDB)
+       ps.execute()
 
+
+   }
+
+    fun createTableTask(){
+        var createTable = "CREATE TABLE `task` (\n" +
+                "\t`id` INT NOT NULL AUTO_INCREMENT,\n" +
+                "\t`mytask` VARCHAR(255) NULL,\n" +
+                "\t`datatask` VARCHAR(255) NULL,\n" +
+                "\tPRIMARY KEY (`id`)\n" +
+                ")\n" +
+                "COLLATE='latin1_swedish_ci'\n" +
+                "ENGINE=InnoDB\n" +
+                ";\n" +
+                "SELECT `DEFAULT_COLLATION_NAME` FROM `information_schema`.`SCHEMATA` WHERE `SCHEMA_NAME`='test'"
+    }
 
     fun addData(addDataInto: String){
         Class.forName(theClassName)
@@ -36,7 +56,12 @@ class DBConnection {
         while (rs.next()) {
 
             println("(ID): " + rs.getString("id") + " (Task): "+ rs.getString("mytask") + " (Date): " + rs.getString("datatask"))
+
         }
+        println("")
+        println("Press any key to back to menu")
+        println("")
+        readLine()
 
       }
 
@@ -73,9 +98,6 @@ fun main(args: Array<String>) {
             1 -> {
                 var db = DBConnection()
                 db.listAllTasks()
-                println("")
-                println("")
-
 
             }
 
