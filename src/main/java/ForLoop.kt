@@ -18,4 +18,12 @@ fun main(args: Array<String>) {
         println("The Limit is $theLimit and we are in the count of $myCount")
     }
 
+
+    println("Using for loop with strings")
+
+    for(ch in "This is my String"){
+        println(ch)
+    }
+
+
 }
