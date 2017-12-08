@@ -5,7 +5,7 @@ fun main(args: Array<String>) {
     println()
     var x = 0
     for (item in 10.rangeTo(20).step(2)){
-        print("${++x}) ${item}" )
+        print("${++x}) ${item}, " )
     }
     println()
 
