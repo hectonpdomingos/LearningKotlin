@@ -150,6 +150,13 @@ println("Output the result 0, 1,2,3 - X index")
     doubles.forEach { eachNumber -> println(eachNumber) }
 
 
+    println("Array with range")
+    var myArrayRange = arrayOf(10,20,30,40,50,60)
+    for (item in myArrayRange.indices){
+        println("index of ${item} in the array ${myArrayRange[item]}")
+    }
+
+    println()
 }
 
 

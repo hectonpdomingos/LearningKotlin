@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b2c78f7a-a52b-4f13-8d78-47c669c33a86" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/ranges.kt" afterPath="$PROJECT_DIR$/src/main/java/ranges.kt" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Arrays.kt" afterPath="$PROJECT_DIR$/src/main/java/Arrays.kt" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -21,11 +21,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="ranges.kt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ranges.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ranges.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="147">
               <caret line="7" column="31" lean-forward="false" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Arrays.kt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Arrays.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="587">
+              <caret line="158" column="13" lean-forward="false" selection-start-line="158" selection-start-column="13" selection-end-line="158" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -107,7 +117,6 @@
         <option value="$PROJECT_DIR$/src/main/java/ERP/control.kt" />
         <option value="$PROJECT_DIR$/src/main/java/ERP/main.kt" />
         <option value="$PROJECT_DIR$/src/main/java/lambdasExpressions.kt" />
-        <option value="$PROJECT_DIR$/src/main/java/Arrays.kt" />
         <option value="$PROJECT_DIR$/src/main/java/Classes.kt" />
         <option value="$PROJECT_DIR$/src/main/java/ERP/NullSafety.kt" />
         <option value="$PROJECT_DIR$/src/main/java/Sealed.kt" />
@@ -124,6 +133,7 @@
         <option value="$PROJECT_DIR$/src/main/java/when.kt" />
         <option value="$PROJECT_DIR$/src/main/java/ForLoop.kt" />
         <option value="$PROJECT_DIR$/src/main/java/ranges.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/Arrays.kt" />
       </list>
     </option>
   </component>
@@ -232,7 +242,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.RangesKt">
+  <component name="RunManager" selected="Kotlin.ArraysKt">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -273,9 +283,9 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="ColorsKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="ArraysKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="ColorsKt" />
+      <option name="MAIN_CLASS_NAME" value="ArraysKt" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -387,19 +397,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Kotlin.ERP.Launcher" />
-      <item index="1" class="java.lang.String" itemvalue="Kotlin.ColorsKt" />
-      <item index="2" class="java.lang.String" itemvalue="Kotlin.GenericClassesKt" />
-      <item index="3" class="java.lang.String" itemvalue="Kotlin.WhenKt" />
-      <item index="4" class="java.lang.String" itemvalue="Kotlin.ForLoopKt" />
-      <item index="5" class="java.lang.String" itemvalue="Kotlin.RangesKt" />
+      <item index="1" class="java.lang.String" itemvalue="Kotlin.GenericClassesKt" />
+      <item index="2" class="java.lang.String" itemvalue="Kotlin.WhenKt" />
+      <item index="3" class="java.lang.String" itemvalue="Kotlin.ForLoopKt" />
+      <item index="4" class="java.lang.String" itemvalue="Kotlin.RangesKt" />
+      <item index="5" class="java.lang.String" itemvalue="Kotlin.ArraysKt" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Kotlin.RangesKt" />
-        <item index="1" class="java.lang.String" itemvalue="Kotlin.ForLoopKt" />
-        <item index="2" class="java.lang.String" itemvalue="Kotlin.WhenKt" />
-        <item index="3" class="java.lang.String" itemvalue="Kotlin.GenericClassesKt" />
-        <item index="4" class="java.lang.String" itemvalue="Kotlin.ColorsKt" />
+        <item index="0" class="java.lang.String" itemvalue="Kotlin.ArraysKt" />
+        <item index="1" class="java.lang.String" itemvalue="Kotlin.RangesKt" />
+        <item index="2" class="java.lang.String" itemvalue="Kotlin.ForLoopKt" />
+        <item index="3" class="java.lang.String" itemvalue="Kotlin.WhenKt" />
+        <item index="4" class="java.lang.String" itemvalue="Kotlin.GenericClassesKt" />
       </list>
     </recent_temporary>
   </component>
@@ -724,13 +734,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Arrays.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3150">
-          <caret line="150" column="0" lean-forward="false" selection-start-line="150" selection-start-column="0" selection-end-line="150" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/lambdasExpressions.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3381">
@@ -842,6 +845,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
           <caret line="7" column="31" lean-forward="false" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Arrays.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="587">
+          <caret line="158" column="13" lean-forward="false" selection-start-line="158" selection-start-column="13" selection-end-line="158" selection-end-column="13" />
           <folding />
         </state>
       </provider>
