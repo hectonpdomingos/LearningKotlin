@@ -24,6 +24,12 @@ fun main(args: Array<String>) {
 
 max(6,9)
 
+    println("Calling the function with default values")
+    staticValues()
+    println("Calling the function setting values")
+    var z = staticValues(500, 700, "Hecton Domingos")
+    println(z)
+
 }
 
 //function with statement on it
@@ -70,6 +76,12 @@ fun form(name: String, age: Int, salary: Double){
 fun form2(name: String, age: Int, salary: Double): String {
     return name + age + salary
 
+
 }
 
 
+fun staticValues(x: Int = 10, y: Int = 20, name: String = "Hecton"): Int{
+ val results = x + y
+ println(name)
+    return results
+}
