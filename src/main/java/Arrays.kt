@@ -1,4 +1,5 @@
 
+
 fun main(args: Array<String>) {
 
 
@@ -112,9 +113,17 @@ println("Output the result 0, 1,2,3 - X index")
         ++countSoOn
     }
 
+
+    println("Creating a array with 20 and fill it with even numbers")
     val evenNumbers = Array(20){ i -> i * 2}
     for (n in evenNumbers){
         println(n)
+    }
+
+    println("Fill with + 1 * 10")
+    var arrayFilled = Array(6){i ->(i + 1 ) * 10}
+    for (item in arrayFilled){
+        println(item)
     }
 
     println("########### Working with ArrayLists #############")
@@ -162,7 +171,24 @@ println("Output the result 0, 1,2,3 - X index")
     }
 
     println()
+
+
+    println("Array with long elements")
+   var arrayLong = arrayOf(1L, 2L, 3L, 4L, 5L, 6L, 7L, 8L, 9L,10L)
+    for (item in arrayLong){
+        print(" $item " )
+    }
+    println()
+println("Another ArrayOf type long")
+    var arrayLong2 = arrayOf<Long>(1,2,3,4,5,6,7,8,9,10)
+    for (item in arrayLong2){
+
+        print("  $item  ")
+    }
+
+
+
+
+
 }
-
-
 
