@@ -112,6 +112,11 @@ println("Output the result 0, 1,2,3 - X index")
         ++countSoOn
     }
 
+    val evenNumbers = Array(20){ i -> i * 2}
+    for (n in evenNumbers){
+        println(n)
+    }
+
     println("########### Working with ArrayLists #############")
     var myFirstArrayList = ArrayList<String>()
     //Adding informaiton
