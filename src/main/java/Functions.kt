@@ -92,3 +92,13 @@ fun staticValues(x: Int = 10, y: Int = 20, name: String = "Hecton"): Int{
  println(name)
     return results
 }
+
+//Uma função pra calcular area, sem o uso da palavra chave this
+object CalculandoAreaRetangulo{
+    fun MostreArea(largura: Int, altura:Int): Unit{
+        val area = CalculeArea(largura, altura)
+        println("A area é $area")
+    }
+}
+
+fun CalculeArea(largura: Int, altura:Int): Int = largura * altura
