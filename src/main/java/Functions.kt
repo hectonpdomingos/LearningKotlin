@@ -42,7 +42,14 @@ fun myMood(mood: String = "happy"){
     }
 }
 
+//function with one line
+fun multiplyFunction(number: Int) = number * 10
 
+//2 function with one line
+fun multiplyFunction2(number: Int): Int = number * 10
+
+// one line function with strings
+fun helloStranger(name: String, location: String): String = "Hello to you $name at $location"
 
 
 //return max number
