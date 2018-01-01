@@ -1,10 +1,9 @@
+import java.io.File
 import java.io.FileReader
 import java.io.FileWriter
 
 
 fun main(args: Array<String>) {
-
-
 
 
     var quit = false
@@ -40,6 +39,15 @@ fun writeMyTask(task: String){
 
 
 }
+
+fun treeDirectory(){
+
+    //show tree directory
+    File(".").walkTopDown().forEach { println(it)}
+
+}
+
+
 
 fun readMyTask(){
     try {
