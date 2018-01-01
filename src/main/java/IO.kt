@@ -1,6 +1,4 @@
-import java.io.File
-import java.io.FileReader
-import java.io.FileWriter
+import java.io.*
 
 
 fun main(args: Array<String>) {
@@ -39,7 +37,20 @@ fun writeMyTask(task: String){
 
 
 }
+fun readingBinaryFiles(){
+    val di = DataInputStream(FileInputStream("file.bin"))
+    var si: String
 
+    try {
+        while (true){
+            si = di.readUTF()
+            println(si)
+        }
+    }
+    catch (e: EOFException){
+        
+    }
+}
 fun treeDirectory(){
 
     //show tree directory
