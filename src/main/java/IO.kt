@@ -47,6 +47,14 @@ fun treeDirectory(){
 
 }
 
+fun filteringSearch(){
+    //applying filtering to get all .exe files
+    File(".").walkTopDown()
+            .filter { it.name.endsWith(".exe") }
+            .forEach { println(it)}
+
+}
+
 
 
 fun readMyTask(){
